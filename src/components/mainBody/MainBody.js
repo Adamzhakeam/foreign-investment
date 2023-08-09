@@ -7,6 +7,8 @@ function MainBody() {
       <div className=" w-1/2">
         <p className="text-3xl p-2">overall business</p>
         <p className="font-bold text-5xl mt-3 p-2"> $1,121.22</p>
+
+        {/* the buttons in the main div  */}
         <div className="p-2 font-bold">
           <button className="bg-white w-20 mr-5 rounded-lg p-2 shadow-3xl">
             send
@@ -20,6 +22,7 @@ function MainBody() {
         </div>
       </div>
 
+      {/* the div containing the impact summary */}
       <div className="shadow-5xl rounded-xl w-1/2 p-2 bg-[#003d2b]">
         <div className="flex">
           <div className="w-1/2">
@@ -33,6 +36,8 @@ function MainBody() {
             <p className=" text-sm mt-2 text-[#b6e7b4]">10% over the years</p>
           </div>
         </div>
+
+        {/* here is the second dive to insert the impact summary */}
         <div>2</div>
       </div>
     </div>
